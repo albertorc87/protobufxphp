@@ -1,0 +1,21 @@
+{
+    "name": "alber/protobufxphp",
+    "description": "Tutorial para utilizar protobuf con php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alberto",
+            "email": "alberto@cosasdedevs.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "google/protobuf": "^3.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
